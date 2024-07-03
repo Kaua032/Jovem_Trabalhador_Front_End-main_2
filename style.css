@@ -1,0 +1,32 @@
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 35px 35px 0px 35px;
+}
+.modal-content #registerForm {
+  display: none;
+}
+.modal-content #formArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 35px;
+}
+.modal-content #flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.modal-content #flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.modal-content #flex #formStudent1,
+.modal-content #flex #formStudent2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
