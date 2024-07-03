@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const baseURL = "https://api-jovemtrabalhador.onrender.com";
+const baseURL = "https://jovem-trabalhador-api-main-2.onrender.com";
 
 export function getAllCourses() {
   const response = axios.get(`${baseURL}/course/all`);
